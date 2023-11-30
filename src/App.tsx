@@ -62,7 +62,7 @@ function App() {
             sx={{ button: { color: "#ffffff" } }}
             count={Math.ceil(allCidades.length / 10)}
             shape="rounded"
-            onChange={(event, value) => setPage(value)}
+            onChange={(_, value) => setPage(value)}
             color="secondary"
           />
         </Stack>
