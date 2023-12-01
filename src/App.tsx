@@ -24,7 +24,7 @@ function App() {
   }, [page, allCidades]);
 
   return (
-    <div className="w-full bg-[#0F1012]">
+    <div className="w-full h-screen bg-[#0F1012]">
       <div className="flex flex-col p-10">
         <div className="text-xl font-semibold text-white">
           Projeto Technochem
